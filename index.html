@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bill and Gry</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0e0e0e;
+  color:#f2f2f2;
+  font-family:'Inter',sans-serif;
+  overflow-x:hidden;
+}
+
+header{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+  background:linear-gradient(to bottom, rgba(0,0,0,0.85), #0e0e0e);
+}
+
+h1{
+  font-family:'Playfair Display',serif;
+  font-size:4rem;
+  letter-spacing:4px;
+}
+
+.tagline{
+  margin-top:30px;
+  max-width:800px;
+  font-size:1.2rem;
+  opacity:0.85;
+  line-height:1.6;
+}
+
+.section{
+  padding:100px 12%;
+}
+
+.section h2{
+  font-family:'Playfair Display',serif;
+  font-size:3rem;
+  text-align:center;
+  margin-bottom:70px;
+}
+
+.card{
+  background:#161616;
+  padding:50px;
+  margin-bottom:40px;
+  border-left:3px solid gold;
+  transition:0.4s ease;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+.card h3{
+  font-size:2rem;
+  margin-bottom:15px;
+}
+
+.card p{
+  margin:6px 0;
+  opacity:0.9;
+}
+
+.quote{
+  margin-top:20px;
+  font-style:italic;
+  color:gold;
+}
+
+.reservation{
+  padding:100px 20px;
+  text-align:center;
+  background:#121212;
+  font-size:1.6rem;
+  line-height:1.6;
+}
+
+footer{
+  text-align:center;
+  padding:40px;
+  opacity:0.5;
+  font-size:0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>BILL AND GRY</h1>
+  <div class="tagline">
+    Where four musketeers carve their way through the European jungle.  
+    A place where ambition unites and loyalty builds legacy.  
+    One day, together, everyone will say: <strong>E MASEE</strong>
+  </div>
+</header>
+
+<section class="section">
+  <h2>Meet The Team</h2>
+
+  <!-- Mariam -->
+  <div class="card">
+    <h3>Mariam Bolkvadze</h3>
+    <p><strong>Position:</strong> Barista</p>
+    <p><strong>Experience:</strong> Much more than Dani</p>
+    <p><strong>Specialty:</strong> Can take seven gravity hits and calmly say, “This doesn’t even hit.”</p>
+    <div class="quote">“Damn.”</div>
+  </div>
+
+  <!-- Tato -->
+  <div class="card">
+    <h3>Estate Tato Ambokadze</h3>
+    <p><strong>Position:</strong> Bartender</p>
+    <p><strong>Experience:</strong> From Rustavi — meaning all of it</p>
+    <p><strong>Specialty:</strong> Can arrive three hours late in the morning and no one dares to question it</p>
+    <div class="quote">
+      “Sorry, I fell asleep on my phone and the alarm couldn’t wake me up.”
+    </div>
+  </div>
+
+  <!-- Sali -->
+  <div class="card">
+    <h3>Sali Ok</h3>
+    <p><strong>Position:</strong> Barista</p>
+    <p><strong>Experience:</strong> Seven years more than Dani</p>
+    <p><strong>Visibility:</strong> Only special individuals are allowed to see Sali Ok</p>
+    <p><strong>Specialty:</strong> Can steal Anano’s grapefruit fresh without consequences</p>
+    <div class="quote">
+      “When I was in Spain, I wanted to be in Georgia.  
+      Now that I am in Georgia, I want to be in Spain.  
+      What should I do? I didn’t want to be here, I didn’t want to be there — where am I supposed to go?”
+    </div>
+  </div>
+
+  <!-- Tsotne -->
+  <div class="card">
+    <h3>Tsotne Eristavi</h3>
+    <p><strong>Position:</strong> The Barback</p>
+    <p><strong>Experience:</strong> Eight years more than Dani</p>
+    <p><strong>Specialty:</strong> Can create music using only shakers and jiggers</p>
+    <div class="quote">“My life is music.”</div>
+  </div>
+
+</section>
+
+<section class="reservation">
+  Reservation at Bill and Gry is impossible.  
+  You do not book Bill and Gry.  
+  You arrive when the moment finds you.
+</section>
+
+<footer>
+  Bill and Gry — Somewhere Between Ambition and Europe
+</footer>
+
+</body>
+</html>
